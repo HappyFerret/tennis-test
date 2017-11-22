@@ -1,0 +1,24 @@
+{
+  "name": "tennis-test",
+  "version": "1.0.0",
+  "description": "paired programming exercise for dev candidates",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HappyFerret/tennis-test.git"
+  },
+  "author": "Toby Summerfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HappyFerret/tennis-test/issues"
+  },
+  "homepage": "https://github.com/HappyFerret/tennis-test#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^4.0.1",
+    "mocha-cli": "^1.0.1"
+  }
+}
