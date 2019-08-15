@@ -1,6 +1,7 @@
 # Tennis-test
 
 Goal: Re-create a game of tennis including:
+
     - 2 players
     - The basic rules of Tennis
     - Some tests (using `Jest`) to certify that the logic is working as expected
