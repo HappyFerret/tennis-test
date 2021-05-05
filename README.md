@@ -6,7 +6,7 @@ Create a scoring system for a game of tennis. Please note a "game" refers to the
 
 *Please note:* this is a pair programming excercise, so please don't hesistate to communicate and collaborate with the developers you are working with. Also feel free to use any resources online you might need. 
 
-## Approach
+## The Task
 
 Your solution should implement the following features:
 
