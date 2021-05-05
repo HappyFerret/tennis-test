@@ -20,7 +20,7 @@ Your solution should implement the following features:
 - The game returns to deuce if one player is at advantage and the other scores a point
 - The score resets to 0-0 if one player scores twice in a row at Deuce
 
-Please take a test driven approach to this assignment, writing your cases first and proceeding to write logic to satisfy them. After you clone this repository check out a new branch that adheres to this naming convention `test/<your-name>`and commit to it as frequently as you would like.
+Please take a test driven approach to this assignment, writing your cases first and proceeding to write logic to satisfy them. After you clone this repository check out a new branch that adheres to this naming convention `test/<your-name>`and commit to it as frequently as you would like. When you are done, push it up.
 
 ## Available commands:
     - yarn start (runs the `game.js` file)
