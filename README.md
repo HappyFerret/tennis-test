@@ -1,17 +1,26 @@
 # Tennis-test
 
-Goal: Re-create a game of tennis including:
+## Goal 
 
-    - 2 players
-    - The basic rules of Tennis
-    - Some tests (using `Jest`) to certify that the logic is working as expected
+Create a scoring system for a game of tennis. Please note a "game" refers to the game component in a tennis match only. Theres is no need to cater for sets/matches. There is also no need for any form of GUI, just a simple class or collection of functions to create and maintain game state will suffice.
 
-### Basic Rules of Tennis
-    - Players scores one at a time
-    - The score of a player in the game increments the following way: 0 - 15 - 30 - 40
-    - There is a deuce when both players have a score of 40 in the game (which means there will be an "advantage" point)
-    - When a player is at 40, if it wins the exchange it will go down to 0 and win the game.
+*Please note:* this is a pair programming excercise, so please don't hesistate to communicate and collaborate with the developers you are working with. Also feel free to use any resources online you might need. 
 
+## Approach
+
+Your solution should implement the following features:
+
+- A game can be created with 2 players
+- Each players score starts at 0
+- Each player can score a point
+- The score of a player in the game increments the following way: 0 - 15 - 30 - 40
+- The score resets to 0-0 when one player reaches 40.
+- Deuce can be reached if players score is tied at 40-40
+- Advantage point will be awarded if a player scores at 40-40
+- The game returns to deuce if one player is at advantage and the other scores a point
+- The score resets to 0-0 if one player scores twice in a row at Deuce
+
+Please take a test driven approach to this assignment, writing your cases first and proceeding to write logic to satisfy them. After you clone this repository check out a new branch that adheres to this naming convention `test/<your-name>`and commit to it as frequently as you would like.
 
 ## Available commands:
     - yarn start (runs the `game.js` file)
