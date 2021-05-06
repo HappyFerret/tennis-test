@@ -14,7 +14,7 @@ Your solution should implement the following features:
 - Each players score starts at 0
 - Each player can score a point
 - The score of a player in the game increments the following way: 0 - 15 - 30 - 40
-- The score resets to 0-0 when one player reaches 40.
+- A player wins the game if they score after reaching 40, and the match is not at Duece.
 - Deuce can be reached if players score is tied at 40-40
 - Advantage point will be awarded if a player scores at 40-40
 - The game returns to deuce if one player is at advantage and the other scores a point
